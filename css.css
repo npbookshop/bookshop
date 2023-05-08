@@ -1,0 +1,243 @@
+ion-icon{
+    color: #fff;
+}
+.p{
+    color: #fff;
+    text-align: center;
+}
+.x,.y,.z{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.Ion{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    background-color: transparent;
+    text-transform: uppercase;
+    height: 90%;
+    width: 90%;
+}
+.Ion a{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    font-family: popins;
+    height: 150px;
+    width: 450px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    border: #000;
+    border-radius: 6%;
+}
+.Ion .x:hover{
+    background:url(OIP\ \(12\).jpg) ;
+    border-radius: 6%;
+
+}
+.Ion .y:hover{
+    background-color: red;
+    border-radius: 6%;
+
+}
+.Ion .z:hover{
+    background-color: blue;
+    border-radius: 6%;
+}
+.class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 90%;
+    width: 90%;
+}
+.class a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    font-family: popins;
+    height: 150px;
+    width: 450px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    border: #000;
+    border-radius: 6%;
+}
+.class a:hover {
+    background: url(OIP\ \(12\).jpg);
+    border-radius: 7px;
+    color: #fff;
+    font-size:40px;
+    text-transform: capitalize;
+}
+/*
+.class div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    height: 150px;
+    width: 450px;
+    margin-left: 4%;
+    margin-bottom:2% ;
+    border: #000;
+    border-radius: 6%;
+}*/
+b{
+    color: whitesmoke;
+}
+body{
+    background-image: url(3.jpg);
+    background-size: cover;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+    width: 80%;
+}
+
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'poppins';
+
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .contant{
+        text-align: center;
+    }
+    .content h1{
+        font-size: 95px;
+        color:#fff;
+        margin-bottom: 50px
+    }
+    .content a{
+        font-size: 23px;
+        color:#fff;
+        text-decoration: none;
+        border: 2px solid #fff;
+        padding: 15px 25px  ;
+        border-radius: 50px;
+        transition: 0.33s;
+    }
+    .content a :hover{
+        background-color: #fff;
+        color: #000;
+
+    }
+
+   @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(2, 2, 2);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+}
+
+.left h1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #ed1e79;
+    line-height: 80px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.right ul li a:hover {
+    background-color:  burlywood;
+    border-radius: 7px;
+    color: rgb(22, 7, 36);
+}
+
+@media screen and (max-width:805px) {
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 4rem;
+        left: 100%;
+        transition: all 1s;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+
+}
